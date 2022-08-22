@@ -1,3 +1,4 @@
+#프로그래머스는 따로 입출력이 없나?
 def solution(food_times, k):
     answer = 0  #몇번 음식부터 섭취할지
     while k != 0:  #푸드가 남아있을 동안. 0 되면 끝
