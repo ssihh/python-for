@@ -1,8 +1,8 @@
-#시간안에 못품. 맞게 출력도 안댐.
+#시간오버
 n = int(input())
 result = 0
 
-for h in range(n):
+for h in range(n+1): #시간에 +1을 해주어야해요!!!
     if h % 10 == 3 or h // 10 == 3:
         result += 3600
         h += 1
