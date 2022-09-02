@@ -1,3 +1,4 @@
+# 그대로 따라 친 코드 왜 안대지
 def solution(s):
 	answer = len(s)
 	for step in range(1, len(s) // 2 + 1):  #1개 단위(step)부터 압축 단위를 늘려가며 확인
@@ -14,7 +15,7 @@ def solution(s):
 		compressed += str(count) + prev if count >= 2 else prev  #남아있는 문자열에 대해서 처리
 		answer = min(answer, len(compressed))  #만들어지는 압축 문자열이 가장 짧은 것이 정답
 	return answer
-
+# 동빈나코드
 # def solution(s):
 #     answer = len(s)
 #     # 1개 단위(step)부터 압축 단위를 늘려가며 확인
