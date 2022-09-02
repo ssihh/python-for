@@ -1,23 +1,20 @@
-data=input()
-s=[]
-n=[]
-r=[]
+data = input()
+s = []
+n = 0
+r = []
 for i in range(len(data)):
-  if ord(data[i])>=65: #아스키코드 65='A'
-    s.append(ord(data[i]))
-  else:
-    n.append(ord(data[i]))
+    if ord(data[i]) >= 65:  #아스키코드 65='A'
+        s.append(ord(data[i]))
+    else:
+        n += int(data[i])
 
 s.sort()
-sum=0
 
 for i in range(len(s)):
-  r.append(chr(s[i]))
-for i in range(len(n)):
-  sum+=int(chr(n[i]))
+    r.append(chr(s[i]))
 
-r.append(sum)
-print(*r,sep='')
+r.append(n)
+print(*r, sep='')
 '''
 K1KA5CB7
 결과: ABCKK13
