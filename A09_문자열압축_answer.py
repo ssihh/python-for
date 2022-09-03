@@ -1,4 +1,5 @@
 #들여쓰기에 tap이랑 스페이스랑 섞여들어가면 안됨.
+#설명 링크: https://unie2.tistory.com/669
 def solution(s):
   answer = len(s)
   for step in range(1, len(s) // 2 + 1):  #1개 단위(step)부터 압축 단위를 늘려가며 확인. 1부터 절반까지
