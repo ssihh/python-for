@@ -14,4 +14,5 @@ or 과 | 차이점: https://lsjsj92.tistory.com/201 <br/>
 들여쓰기 오류: https://m.blog.naver.com/radii26omg/221085565213 <br/>
 A09 문자열압축 설명: https://unie2.tistory.com/669 <br/>
 A10 자물쇠와열쇠 설명: https://techblog-history-younghunjo1.tistory.com/276 <br/>
-return 함수 즉시탈출 및 반환:https://devbruce.github.io/python/py-12-break,pass,continue,return/ <br/>
+return 함수 즉시탈출 및 반환: https://devbruce.github.io/python/py-12-break,pass,continue,return/ <br/>
+if '3' in str(i): 문자안에 포함되어있다면 
