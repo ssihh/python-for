@@ -6,6 +6,7 @@
 map()함수: https://codinglevelup.tistory.com/83 <br/>
 주석: https://blockdmask.tistory.com/376 <br/>
 입력받은 숫자 한자리씩 나누기 str(): https://sondho.tistory.com/13 <br/>
+array.append(list(map(int, input().split()))): 맵정보 받아오기 120p <br/>
 배열입력받기 list(): https://johnyejin.tistory.com/62 <br/>
 <br/>
 **2. 구현** <br/>
