@@ -12,11 +12,3 @@ a.sort(key=lambda s:s[0])
 
 for i in range(n):
   print(a[i])
-
-
-'''
-5 3
-1 2 5 4 3
-5 5 6 6 5
-결과: 26
-'''
