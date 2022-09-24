@@ -1,5 +1,5 @@
 n=int(input())
-# array=[map((str,int),input().split()) for _ in range(n)]
+
 array=[]
 for i in range(n):
   a, b=input().split()
