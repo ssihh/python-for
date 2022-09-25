@@ -23,3 +23,4 @@ A12 list.sort, sorted(list) 차이점: https://codinglevelup.tistory.com/85 <br/
 graph=[list(map(int,input())) for _ in range(n)]: 공백없이 0과 1로 구성된 문자열 형태로 주어질 때 151p <br/>
 deque([1]): https://tali.tistory.com/1320 <br/>
 A18 answer+=''.join(u) 리스트를 문자열로: https://blockdmask.tistory.com/468 <br/>
+A25 rount(3/7, 3) 소수점 3자리까지만: https://blockdmask.tistory.com/534 <br/>
