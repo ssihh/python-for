@@ -1,3 +1,4 @@
+# 더 여유가 남아버리면 틀려버림. 9로 자른다던가
 n,m=map(int,input().split())
 array=list(map(int, input().split())) #집합자료형 set()
 s=sum(array)//4
