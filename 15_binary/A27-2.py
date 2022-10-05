@@ -1,3 +1,4 @@
+#O(logN) biscet 사용해서 
 from bisect import bisect_left, bisect_right
 
 def count_by_value(a, left_value, right_value):
