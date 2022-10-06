@@ -1,9 +1,9 @@
-#시간복잡도 O(logN)으로
+#시간복잡도 O(logN)으로. 틀린풀이
 def binary(array, target, start, end):
   if start > end:
     return -1
   mid=(start+end)//2
-  if (mid==array[mid]) and array[mid]==target:
+  if (mid==array[mid]) and array[mid]==target: #조건이 이상하쥬 
     return mid
   elif array[mid]>=target: #타겟보다 크면 왼쪽탐색. 여기는 작거나 같으면인데
     return binary(array, target, start, mid-1)
