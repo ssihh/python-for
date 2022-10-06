@@ -1,5 +1,5 @@
 #이진탐색 재귀. O(logN)
-def binary(array, start, end):
+def binary(array, start, end): #target 자리없애고 mid로 대체
   if start > end:
     return -1
   mid=(start+end)//2
