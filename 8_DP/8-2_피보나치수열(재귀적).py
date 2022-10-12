@@ -1,3 +1,4 @@
+#다이나믹 프로그래밍 방법 중, 메모이제이션(Memoization) 기법 = 캐싱(Caching) 이라고도함.
 d=[0]*100
 
 def fibo(x):
