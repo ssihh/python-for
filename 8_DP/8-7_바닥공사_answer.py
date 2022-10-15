@@ -1,6 +1,6 @@
 # 4번째 경우의 수를 잘못셌었네. 12가아니라 11이었다.
-# 백준: https://www.acmicpc.net/problem/11727 
-# 강의: https://www.youtube.com/watch?v=YHZiWaL49HY
+# 백준: https://www.acmicpc.net/problem/11727  
+# 강의: https://www.youtube.com/watch?v=YHZiWaL49HY <-- 여기선10007로 나눠줌
 n = int(input())
 
 d = [0] * 1001
